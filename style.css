@@ -1,0 +1,164 @@
+/*css styling for h1 element*/
+ h2, h3{
+    margin: 0;
+    padding: 4px;
+    font-family: sans-serif;
+    color: rgb(121, 232, 249);
+    text-align: center;
+    font-size: 50px;
+}
+h1{
+    margin: 0;
+    font-family: sans-serif;
+    color: rgb(121, 232, 249);
+    text-align: left;
+    font-size: 60px;
+}
+/*css styling for body element*/
+body{
+    font-family: sans-serif;
+    font-size: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    float: right;
+    background-color: lavender;
+   
+}
+/*css styling for paragraph element*/
+p{
+    margin-left:  5%;
+    margin-right: 5%;
+    padding-bottom: 5em;
+}
+/*css styling for image element*/
+img{
+    width: 30%;
+    height: 25%;
+    margin-right: 10%;
+    margin-left: 35%;
+}
+/*css styling for nav*/
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 3px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: rgb(121, 232, 249);
+    width: 100%;
+}
+nav ul li{
+    display: inline;
+    padding: 8px;
+    
+}
+nav ul li a{
+    color: pink;
+    text-decoration: none;#
+}
+nav ul li:hover{
+    background-color: lavender;
+}
+nav ul{
+    text-align: center;
+    font-size: 1.2em;
+}
+.flexbox{
+    display: flex;
+    list-style-type: style none;
+}
+.flexbox li{
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+/*css styling for form*/
+form{
+    margin-left: 138px;
+}
+.required{
+    font-weight: bold;
+    color: red;
+}
+label{
+    float: left;
+    width: 112px;
+    padding-right: 10px;
+    text-align: right;
+}
+input{
+    margin-left: 1em;
+    margin-bottom: .5em;
+    width: 220px;
+
+}
+#button, #reset{
+    margin-top: .5em;
+    width: 8em;
+    background-color: rgb(121, 232, 249);
+    border: 2px solid pink;
+}
+/* css styling for footer*/
+footer{
+    color: pink;
+}
+.navbar2 {
+    background-color: rgb(121, 232, 249);
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  .navbar2 a {
+    display:inline-block;
+    color: pink;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .navbar2 a:hover {
+    background-color: lavender;
+    color: black;
+  }
+  .navbar2 a.active {
+    background-color: rgb(121, 232, 249);
+    color: pink;
+  }
+  
+
+/* css styling for logo*/
+.logo{
+    float:left;
+    margin-right: 0;
+    width: 5%;
+    height: 5%;
+    margin-left: 0;
+    margin-bottom: 2px;
+    border: 2px;
+    border-color: white;
+
+}
+/*css styling for image*/
+.staff{
+    width: 50%;
+    height: 20%;
+    margin-left: 25%;
+    margin-right: 100%;
+}
+/*css styling for table*/
+table{
+    width: 60%;
+    border: 1px solid pink;
+    border-collapse: collapse;
+    font-size: 20px;
+    margin: 20px;
+    margin-left: 20%;
+}
+th, td, tr{
+    border: 1px solid pink;
+    text-align: center;
+}
+/*css styling for video*/
+.videocontent{
+    margin-left: 25%;
+}
